@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Automated Left Ventricular Ejection Fraction Assessment using Deep Learning</h1>
 
 <h2 align"left">Background</h2>
