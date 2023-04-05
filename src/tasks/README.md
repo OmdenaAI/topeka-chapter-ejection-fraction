@@ -11,8 +11,8 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |     Data Collection    |
-|2|         |         |
-|3|         |         |
-|4|         |         |
-|5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
+|1|    Data Collection     |         |
+|2|    Data Precessing     |         |
+|3| EDA        |         |
+|4|     Model Analysis    |         |
+|5|Deployment|      |
