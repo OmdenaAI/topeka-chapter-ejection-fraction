@@ -14,6 +14,7 @@
   <li><a href="#project-goals">Project Goals</a></li>
   <li><a href="#learning-outcomes">Learning Outcomes</a></li>
   <li><a href="#project-structure">Project Structure</a></li>
+  <li><a href="#folder-overview">Folder Overview</a></li>
 </ul>
 
 
@@ -75,7 +76,7 @@ With a duration of 8-weeks, this project aims to:
         └── results        <- Folder to store Final analysis and modelling results and code.
 --------
 
-## Folder Overview
+<h2 id="folder-overview">Folder Overview</h2>
 
 - Original          - Folder Containing old/completed Omdena challenge code.
 - Reports           - Folder to store all Final Reports of this project
