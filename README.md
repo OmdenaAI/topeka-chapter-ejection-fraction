@@ -1,4 +1,10 @@
 <h1 align="center">Automated Left Ventricular Ejection Fraction Assessment using Deep Learning</h1>
+<h3 align="center">Revolutionizing Cardiac Analysis: Enhancing Efficiency and Accuracy through AI-driven Echocardiography</h3>
+
+
+![Description of Image](https://github.com/OmdenaAI/topeka-chapter-ejection-fraction/blob/main/src/resources/LEVF-app.png)
+
+
 
 <h2>Table of Contents</h2>
 
