@@ -66,6 +66,8 @@ With a duration of 8-weeks, this project aims to:
         │
         ├── references     <- Data dictionaries, manuals, and all other explanatory references used 
         │
+        ├── resources     <- images, videos, and etc
+        │
         ├── tasks          <- Master folder for all individual task folders
         │
         ├── visualizations <- Code and Visualization dashboards generated for the project
