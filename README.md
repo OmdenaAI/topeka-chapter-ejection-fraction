@@ -82,6 +82,7 @@ With a duration of 8-weeks, this project aims to:
 - Data              - Folder to Store all the data collected and used for this project 
 - Docs              - Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
 - References        - Folder to store any referneced code/research papers and other useful documents used for this project
+- Resources         - Folder to images and videos used for this project
 - Tasks             - Master folder for all tasks
   - All Task Folder names should follow specific naming convention
   - All Task folder names should be in chronologial order (from 1 to n)
