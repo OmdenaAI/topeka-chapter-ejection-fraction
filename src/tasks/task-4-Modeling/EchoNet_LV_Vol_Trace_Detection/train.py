@@ -14,7 +14,31 @@ val_keypoints_conv = val_keypoints.astype('float32')
 
 # Callbacks definition
 class ShowProgress(Callback):
-    # Class body omitted for brevity...
+    
+    def on_epoch_end(self, epoch, logs=None):
+        if epoch % 20 == 0:
+            plt.subplots(1, 4, figsize=(10, 10))
+            for i, k in enumerate(np.random.randint(num_total, size=2)):
+                img = train_images[k]
+                img = img.reshape(-1, IMAGE_SIZE, IMAGE_SIZE, 3)
+                pred_kps = self.model.predict(img)
+                pred_kps = pred_kps.reshape(-1,NUM_KEYPOINTS) * IMAGE_SIZE
+                kps = train_keypoints_conv[k].reshape(-1,NUM_KEYPOINTS) * IMAGE_SIZE
+                plt.subplot(1, 4, 2*i+1)
+                plt.gca().set_yticklabels([])
+                plt.gca().set_xticklabels([])
+                plt.gca().set_xticks([])
+                plt.gca().set_yticks([])
+                VisualizeSampleImages(img[0], pred_kps, col='#16a085')
+                plt.xlabel(f"Predicted")
+                plt.subplot(1, 4, 2*i+2)
+                plt.gca().set_yticklabels([])
+                plt.gca().set_xticklabels([])
+                plt.gca().set_xticks([])
+                plt.gca().set_yticks([])
+                VisualizeSampleImages(img[0], kps)
+                plt.xlabel(f"GT:{train_ids[k]}")
+            plt.show()..
 
 callbacks = [
     EarlyStopping(patience=7, restore_best_weights=True),
