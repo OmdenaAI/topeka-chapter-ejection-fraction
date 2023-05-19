@@ -28,3 +28,6 @@ Please make sure to adjust the file paths and names according to your setup, and
 
 You may want to provide additional instructions on how to install the required Python libraries, if necessary, as well as any other relevant usage or troubleshooting tips.
 
+<h1>Sample Images</h1>
+
+![image](https://github.com/OmdenaAI/topeka-chapter-ejection-fraction/assets/87038829/15f7c8f4-86b3-4a87-8bf8-a5ab363f36e3)
