@@ -3,6 +3,8 @@ import pandas as pd
 import PIL
 import cv2
 from constants import NUM_KEYPOINTS, IMAGE_SIZE, OUTPUT_DIR
+from logger import get_logger
+logger = get_logger()
 
 def LoadData(input_dir, type='TRAIN'):
     all_images = []
@@ -31,4 +33,5 @@ def LoadData(input_dir, type='TRAIN'):
     all_points = np.asarray(all_points)
     all_points = all_points.reshape(-1, 1, 1, NUM_KEYPOINTS) / IMAGE_SIZE
     all_ids = np.asarray(all_ids)
+    logger.info(f"Loaded {type} data. Images shape: {all_images.shape}, keypoints shape: {all_points.shape}")
     return all_images, all_points, all_ids
