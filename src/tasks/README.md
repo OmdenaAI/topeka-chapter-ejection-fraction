@@ -1,18 +1,12 @@
 # Task Folder Details
 
-Note : Please Follow the below guidelines to create task folders
-- Task Folder Naming Convention : _task-n-taskname.(n is the task number)_  ex: task-1-data-analysis, task-2-model-deployment etc.
-- All Task folder names should be in chronologial order (from 1 to n)
-- All Task folders should have a README.md file with task Details and task goals along with an info table containing all code/notebook files with their links and information
-- Task folders that contain sub-tasks can create sub folders within the task.
-- __Update the below table explaining the task details.__
+| Steps         | Description                                                                                                                                                             |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Knowledge     | Understanding the problem, the goals of the project, and the necessary resources.                                                                                       |
+| Data Collection| Gathering the necessary data for the project. This could include scraping data from websites, utilizing APIs, or using pre-existing databases.                              |
+| Data Preprocessing| Cleaning and preparing the data for analysis and modeling. This could involve handling missing values, encoding categorical variables, and normalizing numerical variables.|
+| EDA           | Exploratory Data Analysis: Understanding the data through summaries and visualizations. This might include checking data distributions, correlations, outliers, etc.        |
+| Modeling      | Building a suitable model for the problem at hand. Depending on the task, this could include regression models, classification models, clustering algorithms, etc.          |
+| Model Analysis| Assessing the performance of the model(s) through suitable metrics. Depending on the problem, these might include accuracy, precision, recall, F1-score, ROC AUC, etc.    |
+| Deployment    | Making the model available for use in a production environment. This could involve setting up a server, creating an API, or integrating the model into an existing system.  |
 
-### Task Table
-
-| Task No| Task Name | Details |
-|-|-|-|
-|1|    Data Collection     |         |
-|2|    Data Precessing     |         |
-|3| EDA        |         |
-|4|     Model Analysis    |         |
-|5|Deployment|      |
