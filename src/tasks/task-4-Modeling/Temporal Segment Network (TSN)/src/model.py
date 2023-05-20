@@ -49,12 +49,4 @@ def tsn_resnet50(num_classes, num_segments, input_shape, base_model):
     model = Model(inputs=input_segments, outputs=output)
     return model
 
-# Set parameters and build the model
-num_classes = 1
-num_segments = 32
-input_shape = (112, 112, 1)
-tsn_model = tsn_resnet50(num_classes, num_segments, input_shape, base_model)
-
-# Compile the model
-#tsn_model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.00001), loss='categorical_crossentropy', metrics=['accuracy'])
-tsn_model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-02), loss='mean_squared_error', metrics=[tf.keras.metrics.RootMeanSquaredError()])
+)
