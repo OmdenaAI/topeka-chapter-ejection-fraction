@@ -1,0 +1,11 @@
+tensorflow
+requests
+tensorflow-addons
+scikit-video
+hydralit >=1.0.14
+hydralit_components >=1.0.10
+streamlit-option-menu
+opencv-python
+plotly
+matplotlib
+moviepy
