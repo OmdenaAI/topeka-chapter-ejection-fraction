@@ -1,4 +1,3 @@
-
 <h1> Left Ejection Fraction Deep Learning Model Analysis</h1>
 
 <h2> Instroduction</h2>
@@ -111,3 +110,4 @@ Future enhancements might include refining the architecture of the models, tunin
 Moreover, incorporating other methods like ensemble techniques or more advanced architectures might provide a performance boost. Lastly, considering a model's interpretability could also be beneficial, as it would not only help in understanding the patterns learned by the model but also improve the trustworthiness of the model in a clinical setting.
 
 In conclusion, deep learning shows great promise in the realm of echocardiogram analysis, but like any tool, it requires careful optimization and refinement. With additional research and development, these models could become an invaluable tool for cardiac health diagnosis and management.
+
